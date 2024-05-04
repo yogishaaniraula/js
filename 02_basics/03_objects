@@ -1,0 +1,44 @@
+// 2 ways: lietreal and consturcter
+
+// singleton : 
+
+//object literals 
+
+const mySym = Symbol("key 1")
+
+
+
+const JsUser = {
+name : "yogisha",
+"full name": "yogisha Niraula",
+[mySym] : "myKey2",
+
+age:20,
+location: "kalanki",
+email: "sagarmatha.com",
+isLoggesIn: true,
+LastLoginDay: ["monday","tuesday"]
+
+}
+
+// console.log(JsUser.email)
+// console.log(JsUser["email"])
+// console.log(JsUser["full name"])
+// console.log(JsUser.mySym)
+// console.log(JsUser[mySym])
+
+
+JsUser.email = "yogisha@chat.com"
+// Object.freeze(JsUser)
+JsUser.email = "yogisha@google.com"
+console.log(JsUser)
+
+JsUser.greeting = function() {
+    console.log("hola");
+}
+
+JsUser.greeting2 = function() {
+    console.log(`hola, ${this.name}`);
+}
+console.log(JsUser.greeting());
+console.log(JsUser.greeting2());
