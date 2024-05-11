@@ -40,6 +40,25 @@ loginUsermessage("yogisha")
 
 
 
+function calculatePrice (val1, val2, ...num1 )
+{
+    return num1
+
+}
+
+console.log(calculatePrice(300,499,459,3445))
+
+const user = {
+    username: "yogisha"
+    price: 133
+
+}
+
+function handleObject (anyobject)
+{
+    console.log(`Username is $(anyobject)and price is ${anyobject.price}`);
+}
+
 
 
 
