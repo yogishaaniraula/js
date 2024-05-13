@@ -24,9 +24,41 @@ function one() {
 
     function two(){
         const website="youtube";
+        console.log(username);
     }
-    console.log(website);
+    console.log(website );
 
-    two ();
+    two ()
 }
+
+one()
+}
+
+
+if (true)
+    {
+        const username="yogisha"
+        if (username === "yogisha")
+            const website = "youtube"
+        console.log(username+ website);
+
+    }
+    //console.log(website);
+
+}
+//console.log(username);
+
+//*********** */
+
+function addone(num){
+    return num +1 
+}
+
+addone (5)
+
+const addtwo = function (num){
+    return num +2
+}
+
+addtwo(5)
 
